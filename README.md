@@ -9,6 +9,7 @@ Tested with
 
 * C# 1.19.0-pre1
 * C# 2.27.0
+* C# 2.28.1
 
 ## What operating system (Linux, Windows, …) and version?
 
@@ -20,6 +21,7 @@ Tested with
 
 * netcoreapp2.1 (1.19.0-pre1)
 * netcoreapp3.1 (2.27.0)
+* netcoreapp3.1 (2.28.1)
 
 ## What did you do?
 
