@@ -45,8 +45,10 @@ namespace dnc
                 Console.WriteLine($"{p.Host} @ {p.Port} bound to {p.BoundPort}");
             }
 
-            // Uncomment the following line to clean up the one bound port & see
-            // the expected RpcException.
+            // Prior to 2.32.0, one needed to uncomment the following line
+            // to clean up the one bound port & see the expected
+            // RpcException. With 2.32.0, the behavior is what would be
+            // expected.
 
             //await server.ShutdownAsync();
 

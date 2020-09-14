@@ -1,7 +1,10 @@
 # Failure to start a Server leaves some ports in zombie state 
 
-This repository demonstrates gRPC C# [issue #18100][18100], "Failure to
-start a Server leaves some ports in zombie state".
+This repository demonstrated gRPC C# [issue #18100][18100], "Failure to
+start a Server leaves some ports in zombie state". As of gRPC C# 2.32.0,
+this issue has been fixed.
+
+As of September 14, 2020, this repository is archived.
 
 ## What version of gRPC and what language are you using?
 
